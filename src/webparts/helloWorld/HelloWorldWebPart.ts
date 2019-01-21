@@ -56,7 +56,7 @@ export default class HelloWorldWebPart extends BaseClientSideWebPart<IHelloWorld
             <p class="${ styles.description }">${escape(this.properties.test)}</p>
             <p class="${ styles.description }">Loading from ${escape(this.context.pageContext.web.title)}</p>
             <a href="https://aka.ms/spfx" class="${ styles.button }">
-              <span class="${ styles.label }">Learn more</span>
+              <span class="${ styles.label }">Learn more. Si tu quieres</span>
             </a>
           </div>
         </div>
